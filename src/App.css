@@ -1,22 +1,64 @@
 .App {
   text-align: center;
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
 }
 
-.App-logo {
-  height: 40vmin;
-}
+
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color:rgb(85, 5, 85);
+  height: 80px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: yellow;
 }
 
-.App-link {
-  color: #09d3ac;
+.App div {
+  margin: 50px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
 }
+
+.c {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(85, 5, 85);
+  border: 1px solid yellow;
+  padding: 20px;
+  border-radius: 5px;
+  min-height: 60px;
+  color: yellow;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.StarshipPage-starship {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(85, 5, 85);
+  border: 1px solid yellow;
+  padding: 20px;
+  border-radius: 5px;
+  min-height: 60px;
+  color: yellow;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.rlink{
+  color: yellow;
+}
+
+h3 {
+  color: yellow;
+}
+
